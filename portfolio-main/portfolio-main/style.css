@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Protest+Revolution&display=swap');
+    :root {
+        --cor-principal:#00FF7F;
+        --cor-segundaria:#00FFFF;
+        --cor-destaque:#F0F8FF;
+    }
+    body {
+        font-family:"Lacquer", system-ui;
+    }
+
+    h1, h2, h5 {
+        color: var(--cor-segundaria);
+        font-weight: 700;
+    }
+    footer a {
+        color:var(--cor-principal)
+    }
+    footer a:hover {
+        color:var(--cor-destaque);
+    }
